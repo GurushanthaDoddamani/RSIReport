@@ -17,6 +17,11 @@ jobs:
       - name: Install dependencies
         run: pip install papermill
 
-      - name: Run notebook
+      - name: Install Dependencies
         run: |
-          papermill rsi.ipynb
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Run Python Script
+        run: python rsi.py
+        
