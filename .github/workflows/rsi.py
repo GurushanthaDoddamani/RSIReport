@@ -49,3 +49,4 @@ if __name__ == "__main__":
   """
   # text = text.format(table=tabulate(data1, headers="firstrow", tablefmt="grid"))
   send_email(subject, html_body)
+
