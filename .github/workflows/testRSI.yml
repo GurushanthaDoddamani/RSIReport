@@ -19,4 +19,4 @@ jobs:
 
       - name: Run notebook
         run: |
-          papermill rsidetails.ipynb
+          papermill rsi.ipynb
