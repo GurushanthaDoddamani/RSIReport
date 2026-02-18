@@ -1,4 +1,4 @@
-name: Run Notebook
+name: Run Notebook - test.yml
 
 on:
   schedule:
