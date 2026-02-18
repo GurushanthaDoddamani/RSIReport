@@ -1,8 +1,9 @@
 name: Run Notebook - test.yml
 
 on:
-  schedule:
-    - cron: '0 0 * * *'  # Runs at 12:00 AM UTC daily
+ workflow_dispatch:
+ schedule:
+   - cron: '0 0 * * *'  # Runs at 12:00 AM UTC daily
 
 jobs:
   run-notebook:
